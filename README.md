@@ -8,7 +8,9 @@ Navigates files on the terminal with the minimal amount of keystrokes.
 
 2. Type `navim` on the terminal.
 
-It will list the files on the current directory with a `[key]` on its side:
+## How it works?
+
+Navim lists all the files on the current directory with a `[key]` on its side:
 
 ```
 $
@@ -21,17 +23,14 @@ $
 [f] README.md
 ```
 
-Then you can type the following commands:
-
-- `[key]`: enters a directory or opens a file on VIM.
+Then, to enter a directory or open a file on VIM, you just need to type the
+corresponding key. Other commands include:
 
 - `space`: enters the parent directory.
 
 - `.`: goes back to previous directory.
 
 - `/command<cr>`: executes a shell command.
-
-- `/exit<cr>` quits.
 
 - `<esc>`: quits.
 
